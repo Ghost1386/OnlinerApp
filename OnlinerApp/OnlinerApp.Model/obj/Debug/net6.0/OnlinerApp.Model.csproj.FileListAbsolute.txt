@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Model\bin\Debug\net6.0\OnlinerApp.Model.deps.json
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Model\bin\Debug\net6.0\OnlinerApp.Model.dll
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Model\bin\Debug\net6.0\OnlinerApp.Model.pdb
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Model\obj\Debug\net6.0\OnlinerApp.Model.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Model\obj\Debug\net6.0\OnlinerApp.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Model\obj\Debug\net6.0\OnlinerApp.Model.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Model\obj\Debug\net6.0\OnlinerApp.Model.AssemblyInfo.cs
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Model\obj\Debug\net6.0\OnlinerApp.Model.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Model\obj\Debug\net6.0\OnlinerApp.Model.dll
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Model\obj\Debug\net6.0\refint\OnlinerApp.Model.dll
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Model\obj\Debug\net6.0\OnlinerApp.Model.pdb
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Model\obj\Debug\net6.0\ref\OnlinerApp.Model.dll
