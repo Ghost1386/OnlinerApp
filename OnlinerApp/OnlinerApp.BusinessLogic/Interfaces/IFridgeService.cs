@@ -6,15 +6,15 @@ namespace OnlinerApp.BusinessLogic.Interfaces;
 
 public interface IFridgeService
 {
-    List<Fridge> Get();
+    IEnumerable<Fridge> Get();
 
-    List<Fridge> Get(SortFridgeDTO model);
+    IQueryable<Fridge> Get(SortFridgeDTO model);
 
     Fridge Get(int id);
 
     void Create(CreateFridgeDTO model);
 
-    void Edit(EditFridgeDTO model);
+    void Edit(int id, EditFridgeDTO model);
 
     void Delete(DeleteBasicDTO model);
 }

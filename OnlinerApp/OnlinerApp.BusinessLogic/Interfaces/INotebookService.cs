@@ -6,15 +6,15 @@ namespace OnlinerApp.BusinessLogic.Interfaces;
 
 public interface INotebookService
 {
-    List<Notebook> Get();
+    IEnumerable<Notebook> Get();
 
-    List<Notebook> Get(SortNotebookDTO model);
+    IQueryable<Notebook> Get(SortNotebookDTO model);
 
     Notebook Get(int id);
 
     void Create(CreateNotebookDTO model);
 
-    void Edit(EditNotebookDTO model);
+    void Edit(int id, EditNotebookDTO model);
 
     void Delete(DeleteBasicDTO model);
 }

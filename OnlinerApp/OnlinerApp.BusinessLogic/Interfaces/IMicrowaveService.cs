@@ -6,15 +6,15 @@ namespace OnlinerApp.BusinessLogic.Interfaces;
 
 public interface IMicrowaveService
 {
-    List<Microwave> Get();
+    IEnumerable<Microwave> Get();
 
-    List<Microwave> Get(SortMicrowaveDTO model);
+    IQueryable<Microwave> Get(SortMicrowaveDTO model);
 
     Microwave Get(int id);
 
     void Create(CreateMicrowaveDTO model);
 
-    void Edit(EditMicrowaveDTO model);
+    void Edit(int id, EditMicrowaveDTO model);
 
     void Delete(DeleteBasicDTO model);
 }

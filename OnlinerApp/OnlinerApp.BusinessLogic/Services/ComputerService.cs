@@ -105,7 +105,7 @@ public class ComputerService : IComputerService
     {
         var computer = Get(id);
 
-        if (computer == null)
+        if (computer.Id == 0)
         {
             return;
         }

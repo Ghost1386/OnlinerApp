@@ -6,15 +6,15 @@ namespace OnlinerApp.BusinessLogic.Interfaces;
 
 public interface IMotorbikeService
 {
-    List<Motorbike> Get();
+    IEnumerable<Motorbike> Get();
 
-    List<Motorbike> Get(SortMotorbikeDTO model);
+    IQueryable<Motorbike> Get(SortMotorbikeDTO model);
 
     Motorbike Get(int id);
 
     void Create(CreateMotorbikeDTO model);
 
-    void Edit(EditMotorbikeDTO model);
+    void Edit(int id, EditMotorbikeDTO model);
 
     void Delete(DeleteBasicDTO model);
 }

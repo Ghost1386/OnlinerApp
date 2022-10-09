@@ -6,15 +6,15 @@ namespace OnlinerApp.BusinessLogic.Interfaces;
 
 public interface IHobService
 {
-    List<Hob> Get();
+    IEnumerable<Hob> Get();
 
-    List<Hob> Get(SortHobDTO model);
+    IQueryable<Hob> Get(SortHobDTO model);
 
     Hob Get(int id);
 
     void Create(CreateHobDTO model);
 
-    void Edit(EditHobDTO model);
+    void Edit(int id, EditHobDTO model);
 
     void Delete(DeleteBasicDTO model);
 }
