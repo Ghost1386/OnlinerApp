@@ -2,5 +2,6 @@
 
 public enum DoorDesign
 {
-    
+    Hinged = 0,
+    Folding = 1
 }

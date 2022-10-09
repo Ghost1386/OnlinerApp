@@ -7,13 +7,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Interfaces" />
-      <Folder Include="Services" />
+      <PackageReference Include="AutoMapper" Version="12.0.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.9" />
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="AutoMapper" Version="12.0.0" />
-      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.9" />
+      <ProjectReference Include="..\OnlinerApp.Common\OnlinerApp.Common.csproj" />
+      <ProjectReference Include="..\OnlinerApp.Model\OnlinerApp.Model.csproj" />
     </ItemGroup>
 
 </Project>

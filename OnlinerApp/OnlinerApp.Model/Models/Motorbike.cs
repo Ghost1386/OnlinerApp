@@ -1,10 +1,10 @@
 ﻿namespace OnlinerApp.Model.Models;
 
-public class Motorbike
+public class Motorbike : BasicModel
 {
     public int Id { get; set; }
     
-    public int TypeOf { get; set; }
+    public string TypeOf { get; set; }
     
     public int Volume { get; set; }
     

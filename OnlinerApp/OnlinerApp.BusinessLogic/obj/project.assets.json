@@ -753,6 +753,29 @@
             "rid": "win"
           }
         }
+      },
+      "OnlinerApp.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/OnlinerApp.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnlinerApp.Common.dll": {}
+        }
+      },
+      "OnlinerApp.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.9"
+        },
+        "compile": {
+          "bin/placeholder/OnlinerApp.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnlinerApp.Model.dll": {}
+        }
       }
     }
   },
@@ -1934,12 +1957,24 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "OnlinerApp.Common/1.0.0": {
+      "type": "project",
+      "path": "../OnlinerApp.Common/OnlinerApp.Common.csproj",
+      "msbuildProject": "../OnlinerApp.Common/OnlinerApp.Common.csproj"
+    },
+    "OnlinerApp.Model/1.0.0": {
+      "type": "project",
+      "path": "../OnlinerApp.Model/OnlinerApp.Model.csproj",
+      "msbuildProject": "../OnlinerApp.Model/OnlinerApp.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper >= 12.0.0",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.9"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.9",
+      "OnlinerApp.Common >= 1.0.0",
+      "OnlinerApp.Model >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1968,7 +2003,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\user\\Desktop\\OnlinerApp\\OnlinerApp\\OnlinerApp.Common\\OnlinerApp.Common.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\OnlinerApp\\OnlinerApp\\OnlinerApp.Common\\OnlinerApp.Common.csproj"
+            },
+            "C:\\Users\\user\\Desktop\\OnlinerApp\\OnlinerApp\\OnlinerApp.Model\\OnlinerApp.Model.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\OnlinerApp\\OnlinerApp\\OnlinerApp.Model\\OnlinerApp.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

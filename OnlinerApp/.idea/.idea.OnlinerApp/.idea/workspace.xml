@@ -6,21 +6,116 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68f2f5c7-270c-41a0-ae1e-a57e34dd22b5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/HobEnum/WorkingSurface.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/MicrowaveEnum/TypeMicrowave.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OnlinerApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OnlinerApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/OnlinerApp.BusinessLogic.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/OnlinerApp.BusinessLogic.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/obj/Debug/net6.0/OnlinerApp.BusinessLogic.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/obj/Debug/net6.0/OnlinerApp.BusinessLogic.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/obj/OnlinerApp.BusinessLogic.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/obj/OnlinerApp.BusinessLogic.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/FridgeEnum/EnergyClass.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/HobsEnum/ElectricIgnition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/HobEnum/ElectricIgnition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/HobsEnum/Lattices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/HobEnum/Lattices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/HobsEnum/WorkingSurface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/MicrowaveEnum/Control.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/MicrowaveEnum/Control.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/MicrowaveEnum/DoorDesign.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/MicrowaveEnum/DoorDesign.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/MicrowaveEnum/Execution.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/MicrowaveEnum/Execution.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/MicrowaveEnum/RotaryTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/MicrowaveEnum/RotaryTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/MicrowaveEnum/TypeOf.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/MotorbikeEnum/Cooling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/MotorbikeEnum/Cooling.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/MotorbikeEnum/ElectricStarter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/MotorbikeEnum/ElectricStarter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/MotorbikeEnum/NumberOfCylinders.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/MotorbikeEnum/TypeOf.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/NotebookEnum/DriverType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/NotebookEnum/DriverType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/NotebookEnum/OperatingSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/NotebookEnum/OperatingSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/NotebookEnum/ScreenMatrix.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/NotebookEnum/ScreenMatrix.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/TelephoneEnum/OperatingSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/TelephoneEnum/OperatingSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/TelephoneEnum/TypeOf.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/TelephoneEnum/TypeOf.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/TelevisionEnum/MatrixType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/TelevisionEnum/MatrixType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/TelevisionEnum/Platform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/TelevisionEnum/Platform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/TelevisionEnum/TypeOf.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/TelevisionEnum/TypeOf.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/VacuumCleanerEnum/Pipe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/VacuumCleanerEnum/Pipe.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/VacuumCleanerEnum/PowerAdjustment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/VacuumCleanerEnum/PowerAdjustment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/WasherEnum/DownloadMethod.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/WasherEnum/DownloadMethod.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/WasherEnum/EnergyConsumption.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/WasherEnum/SteamTreatment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/WasherEnum/SteamTreatment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/СomputerEnum/ComputerType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/СomputerEnum/ComputerType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/СomputerEnum/Hdd.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/СomputerEnum/Hdd.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/СomputerEnum/OperatingSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/СomputerEnum/OperatingSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/Enums/СomputerEnum/Ram.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/Enums/СomputerEnum/Ram.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/OnlinerApp.Common.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/OnlinerApp.Common.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/MapperProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/MapperProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/OnlinerApp.Mapper.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/OnlinerApp.Mapper.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/bin/Debug/net6.0/OnlinerApp.Mapper.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/bin/Debug/net6.0/OnlinerApp.Mapper.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/bin/Debug/net6.0/OnlinerApp.Mapper.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/bin/Debug/net6.0/OnlinerApp.Mapper.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/bin/Debug/net6.0/OnlinerApp.Mapper.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/bin/Debug/net6.0/OnlinerApp.Mapper.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/Debug/net6.0/OnlinerApp.Mapper.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/Debug/net6.0/OnlinerApp.Mapper.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/Debug/net6.0/OnlinerApp.Mapper.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/Debug/net6.0/OnlinerApp.Mapper.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/Debug/net6.0/OnlinerApp.Mapper.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/Debug/net6.0/OnlinerApp.Mapper.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/Debug/net6.0/OnlinerApp.Mapper.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/Debug/net6.0/OnlinerApp.Mapper.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/Debug/net6.0/OnlinerApp.Mapper.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/Debug/net6.0/OnlinerApp.Mapper.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/Debug/net6.0/OnlinerApp.Mapper.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/Debug/net6.0/OnlinerApp.Mapper.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/OnlinerApp.Mapper.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/OnlinerApp.Mapper.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/OnlinerApp.Mapper.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/OnlinerApp.Mapper.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Model/ApplicationContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Model/ApplicationContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Model/BasicInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Model/BasicModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Model/Models/Fridge.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Model/Models/Fridge.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Model/Models/Hob.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Model/Models/Hob.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Model/Models/Microwave.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Model/Models/Microwave.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Model/Models/Motorbike.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Model/Models/Motorbike.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Model/Models/Notebook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Model/Models/Notebook.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Model/Models/Telephone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Model/Models/Telephone.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Model/Models/Television.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Model/Models/Television.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Model/Models/VacuumCleaner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Model/Models/VacuumCleaner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Model/Models/Washer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Model/Models/Washer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Model/Models/Сomputer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Model/Models/Сomputer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Model/bin/Debug/net6.0/OnlinerApp.Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Model/bin/Debug/net6.0/OnlinerApp.Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Model/bin/Debug/net6.0/OnlinerApp.Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Model/bin/Debug/net6.0/OnlinerApp.Model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Model/obj/Debug/net6.0/OnlinerApp.Model.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Model/obj/Debug/net6.0/OnlinerApp.Model.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Model/obj/Debug/net6.0/OnlinerApp.Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Model/obj/Debug/net6.0/OnlinerApp.Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Model/obj/Debug/net6.0/OnlinerApp.Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Model/obj/Debug/net6.0/OnlinerApp.Model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Model/obj/Debug/net6.0/ref/OnlinerApp.Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Model/obj/Debug/net6.0/ref/OnlinerApp.Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Model/obj/Debug/net6.0/refint/OnlinerApp.Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Model/obj/Debug/net6.0/refint/OnlinerApp.Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.Model/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Model/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlinerApp/OnlinerApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/OnlinerApp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlinerApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp/WeatherForecast.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlinerApp/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.Mapper.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.Mapper.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.Mapper.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.Mapper.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.Model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/OnlinerApp.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/OnlinerApp.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/OnlinerApp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/OnlinerApp.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/OnlinerApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/OnlinerApp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/OnlinerApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/OnlinerApp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/OnlinerApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/OnlinerApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/OnlinerApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/OnlinerApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/ref/OnlinerApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/ref/OnlinerApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/refint/OnlinerApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/refint/OnlinerApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlinerApp/obj/OnlinerApp.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/obj/OnlinerApp.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp/obj/OnlinerApp.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/obj/OnlinerApp.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlinerApp/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlinerApp/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlinerApp/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlinerApp/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +123,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0e167aba7b354fb4a542562a6f7dcf621cba88/a3/0e4243bc/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/227ed75384c24c09bd6a4ae4ff4c1534a23898/2a/290b80dd/RuntimeFieldInfoStub.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/227ed75384c24c09bd6a4ae4ff4c1534a23898/49/90419043/FieldInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/227ed75384c24c09bd6a4ae4ff4c1534a23898/5f/410e5d7f/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/227ed75384c24c09bd6a4ae4ff4c1534a23898/e1/306c3081/CastHelpers.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bdd6787ef9d8418285a1bba141319b972ee88/04/a4ce3889/ServiceProviderEngineScope.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d9d9faea5e6ed6438a777ef8c6eed41261f81d8e86488ed923ad92564f54e/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -92,7 +194,17 @@
       <updated>1664647519965</updated>
       <workItem from="1664647526821" duration="258000" />
       <workItem from="1664805706663" duration="7744000" />
-      <workItem from="1664825214828" duration="1679000" />
+      <workItem from="1664825214828" duration="1829000" />
+      <workItem from="1664861393629" duration="4075000" />
+      <workItem from="1664886808652" duration="1918000" />
+      <workItem from="1664948049116" duration="6180000" />
+      <workItem from="1664997583869" duration="3030000" />
+      <workItem from="1665000774545" duration="1956000" />
+      <workItem from="1665045057406" duration="2771000" />
+      <workItem from="1665052683859" duration="6239000" />
+      <workItem from="1665059224363" duration="4890000" />
+      <workItem from="1665138927839" duration="7794000" />
+      <workItem from="1665310979170" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="add main files">
       <created>1664647624771</created>
@@ -101,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664647624771</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add models and empty dtos">
+      <created>1664826998501</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664826998501</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +242,26 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="add main files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add main files" />
+    <MESSAGE value="add models and empty dtos" />
+    <option name="LAST_COMMIT_MESSAGE" value="add models and empty dtos" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OnlinerApp.BusinessLogic/Services/SortService.cs</url>
+          <line>12</line>
+          <properties documentPath="C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.BusinessLogic\Services\SortService.cs" initialLine="12" containingFunctionPresentation="method 'Sort'">
+            <startOffsets>
+              <option value="358" />
+            </startOffsets>
+            <endOffsets>
+              <option value="404" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

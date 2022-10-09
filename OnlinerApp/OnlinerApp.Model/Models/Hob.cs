@@ -1,6 +1,6 @@
 ﻿namespace OnlinerApp.Model.Models;
 
-public class Hob : BasicInfo
+public class Hob : BasicModel
 {
     public int Id { get; set; }
     

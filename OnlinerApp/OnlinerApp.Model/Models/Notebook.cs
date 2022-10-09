@@ -1,6 +1,6 @@
 ﻿namespace OnlinerApp.Model.Models;
 
-public class Notebook : BasicInfo
+public class Notebook : BasicModel
 {
     public int Id { get; set; }
 

@@ -62,3 +62,9 @@ C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp\obj\Debug\net6.0\refint\O
 C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp\obj\Debug\net6.0\OnlinerApp.pdb
 C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp\obj\Debug\net6.0\OnlinerApp.genruntimeconfig.cache
 C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp\obj\Debug\net6.0\ref\OnlinerApp.dll
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp\bin\Debug\net6.0\OnlinerApp.BusinessLogic.dll
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp\bin\Debug\net6.0\OnlinerApp.Common.dll
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp\bin\Debug\net6.0\OnlinerApp.BusinessLogic.pdb
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp\bin\Debug\net6.0\OnlinerApp.Common.pdb

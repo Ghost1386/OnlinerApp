@@ -2,5 +2,6 @@
 
 public enum TypeOf
 {
-    
+    PushButtonTelephone = 0,
+    Smartphone = 1
 }

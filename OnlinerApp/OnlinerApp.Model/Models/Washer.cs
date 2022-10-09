@@ -1,6 +1,6 @@
 ﻿namespace OnlinerApp.Model.Models;
 
-public class Washer : BasicInfo
+public class Washer : BasicModel
 {
     public int Id { get; set; }
     
@@ -12,7 +12,7 @@ public class Washer : BasicInfo
     
     public int SpinSpeed { get; set; }
     
-    public int EnergyConsumption { get; set; }
+    public string EnergyConsumption { get; set; }
     
     public int SteamTreatment { get; set; }
     

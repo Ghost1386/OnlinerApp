@@ -2,5 +2,6 @@
 
 public enum SteamTreatment
 {
-    
+    No = 0,
+    Yes = 1
 }

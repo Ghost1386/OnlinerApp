@@ -1,6 +1,6 @@
 ﻿namespace OnlinerApp.Model.Models;
 
-public class Microwave : BasicInfo
+public class Microwave : BasicModel
 {
     public int Id { get; set; }
     
@@ -14,7 +14,7 @@ public class Microwave : BasicInfo
     
     public int DoorDesign { get; set; }
     
-    public int MicrowavePower { get; set; }
+    public int Power { get; set; }
     
     public int RotaryTable { get; set; }
 }

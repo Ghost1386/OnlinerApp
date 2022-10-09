@@ -1,0 +1,17 @@
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.BusinessLogic\bin\Debug\net6.0\OnlinerApp.BusinessLogic.deps.json
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.BusinessLogic\bin\Debug\net6.0\OnlinerApp.BusinessLogic.dll
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.BusinessLogic\bin\Debug\net6.0\OnlinerApp.BusinessLogic.pdb
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.BusinessLogic\bin\Debug\net6.0\OnlinerApp.Common.dll
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.BusinessLogic\bin\Debug\net6.0\OnlinerApp.Model.dll
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.BusinessLogic\bin\Debug\net6.0\OnlinerApp.Common.pdb
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.BusinessLogic\bin\Debug\net6.0\OnlinerApp.Model.pdb
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.BusinessLogic\obj\Debug\net6.0\OnlinerApp.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.BusinessLogic\obj\Debug\net6.0\OnlinerApp.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.BusinessLogic\obj\Debug\net6.0\OnlinerApp.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.BusinessLogic\obj\Debug\net6.0\OnlinerApp.BusinessLogic.AssemblyInfo.cs
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.BusinessLogic\obj\Debug\net6.0\OnlinerApp.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.BusinessLogic\obj\Debug\net6.0\OnlinerApp.BusinessLogic.csproj.CopyComplete
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.BusinessLogic\obj\Debug\net6.0\OnlinerApp.BusinessLogic.dll
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.BusinessLogic\obj\Debug\net6.0\refint\OnlinerApp.BusinessLogic.dll
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.BusinessLogic\obj\Debug\net6.0\OnlinerApp.BusinessLogic.pdb
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.BusinessLogic\obj\Debug\net6.0\ref\OnlinerApp.BusinessLogic.dll

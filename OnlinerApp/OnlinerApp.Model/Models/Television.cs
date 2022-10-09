@@ -1,6 +1,6 @@
 ﻿namespace OnlinerApp.Model.Models;
 
-public class Television : BasicInfo
+public class Television : BasicModel
 {
     public int Id { get; set; }
 

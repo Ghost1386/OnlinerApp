@@ -1,6 +1,6 @@
 ﻿namespace OnlinerApp.Model.Models;
 
-public class VacuumCleaner : BasicInfo
+public class VacuumCleaner : BasicModel
 {
     public int Id { get; set; }
     

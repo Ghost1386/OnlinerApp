@@ -1,9 +1,7 @@
 ﻿namespace OnlinerApp.Model.Models;
 
-public class Сomputer : BasicInfo
+public class Сomputer : BasicModel
 {
-    public int Id { get; set; }
-    
     public string Cpu { get; set; }
     
     public string VideoCard { get; set; }

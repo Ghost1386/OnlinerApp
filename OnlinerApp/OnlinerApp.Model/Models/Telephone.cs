@@ -1,6 +1,6 @@
 ﻿namespace OnlinerApp.Model.Models;
 
-public class Telephone : BasicInfo
+public class Telephone : BasicModel
 {
     public int Id { get; set; }
 

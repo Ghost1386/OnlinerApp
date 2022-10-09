@@ -7,7 +7,6 @@ public class ApplicationContext : DbContext
 {
     public ApplicationContext(DbContextOptions<ApplicationContext> options) : base(options)
     {
-        
     }
     
     public DbSet<Fridge> Fridges { get; set; }
@@ -24,6 +23,8 @@ public class ApplicationContext : DbContext
     
     public DbSet<Television> Televisions { get; set; }
     
+    public DbSet<User> Users { get; set; }
+
     public DbSet<VacuumCleaner> VacuumCleaners { get; set; }
 
     public DbSet<Washer> Washers { get; set; }

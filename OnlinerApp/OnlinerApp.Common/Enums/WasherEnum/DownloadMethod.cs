@@ -2,5 +2,6 @@
 
 public enum DownloadMethod
 {
-    
+    Frontal = 0,
+    Vertical = 1
 }

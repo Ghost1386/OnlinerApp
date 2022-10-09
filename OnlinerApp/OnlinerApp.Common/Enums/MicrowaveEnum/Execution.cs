@@ -2,5 +2,6 @@
 
 public enum Execution
 {
-    
+    Freestanding = 0,
+    Embedded = 1
 }
