@@ -6,15 +6,15 @@ namespace OnlinerApp.BusinessLogic.Interfaces;
 
 public interface IVacuumCleanerService
 {
-    List<VacuumCleaner> Get();
+    IEnumerable<VacuumCleaner> Get();
 
-    List<VacuumCleaner> Get(SortVacuumCleanerDTO model);
+    IQueryable<VacuumCleaner> Get(SortVacuumCleanerDTO model);
 
     VacuumCleaner Get(int id);
 
     void Create(CreateVacuumCleanerDTO model);
 
-    void Edit(EditVacuumCleanerDTO model);
+    void Edit(int id, EditVacuumCleanerDTO model);
 
     void Delete(DeleteBasicDTO model);
 }

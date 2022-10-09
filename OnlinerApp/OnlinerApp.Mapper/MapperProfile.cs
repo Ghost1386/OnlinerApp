@@ -4,6 +4,10 @@ using OnlinerApp.Common.DTO_s.HobDTO;
 using OnlinerApp.Common.DTO_s.MicrowaveDTO;
 using OnlinerApp.Common.DTO_s.MotorbikeDTO;
 using OnlinerApp.Common.DTO_s.NotebookDTO;
+using OnlinerApp.Common.DTO_s.TelephoneDTO;
+using OnlinerApp.Common.DTO_s.TelevisionDTO;
+using OnlinerApp.Common.DTO_s.VacuumCleanerDTO;
+using OnlinerApp.Common.DTO_s.WasherDTO;
 using OnlinerApp.Common.DTO_s.СomputerDTO;
 using OnlinerApp.Model.Models;
 
@@ -30,5 +34,17 @@ public class MapperProfile : Profile
         
         CreateMap<CreateNotebookDTO, Notebook>();
         CreateMap<EditNotebookDTO, Notebook>();
+        
+        CreateMap<CreateTelephoneDTO, Telephone>();
+        CreateMap<EditTelephoneDTO, Telephone>();
+        
+        CreateMap<CreateTelevisionDTO, Television>();
+        CreateMap<EditTelevisionDTO, Television>();
+        
+        CreateMap<CreateVacuumCleanerDTO, VacuumCleaner>();
+        CreateMap<EditVacuumCleanerDTO, VacuumCleaner>();
+        
+        CreateMap<CreateWasherDTO, Washer>();
+        CreateMap<EditWasherDTO, Washer>();
     }
 }

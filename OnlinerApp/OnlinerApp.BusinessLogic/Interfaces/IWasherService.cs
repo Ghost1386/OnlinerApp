@@ -6,15 +6,15 @@ namespace OnlinerApp.BusinessLogic.Interfaces;
 
 public interface IWasherService
 {
-    List<Washer> Get();
+    IEnumerable<Washer> Get();
 
-    List<Washer> Get(SortWasherDTO model);
+    IQueryable<Washer> Get(SortWasherDTO model);
 
     Washer Get(int id);
 
     void Create(CreateWasherDTO model);
 
-    void Edit(EditWasherDTO model);
+    void Edit(int id, EditWasherDTO model);
 
     void Delete(DeleteBasicDTO model);
 }

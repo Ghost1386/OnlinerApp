@@ -6,15 +6,15 @@ namespace OnlinerApp.BusinessLogic.Interfaces;
 
 public interface ITelevisionService
 {
-    List<Television> Get();
+    IEnumerable<Television> Get();
 
-    List<Television> Get(SortTelevisionDTO model);
+    IQueryable<Television> Get(SortTelevisionDTO model);
 
     Television Get(int id);
 
     void Create(CreateTelevisionDTO model);
 
-    void Edit(EditTelevisionDTO model);
+    void Edit(int id, EditTelevisionDTO model);
 
     void Delete(DeleteBasicDTO model);
 }

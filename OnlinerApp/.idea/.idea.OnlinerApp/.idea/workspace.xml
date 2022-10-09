@@ -5,61 +5,17 @@
     <projectFile profileName="OnlinerApp">OnlinerApp/OnlinerApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68f2f5c7-270c-41a0-ae1e-a57e34dd22b5" name="Changes" comment="add basic sort service">
+    <list default="true" id="68f2f5c7-270c-41a0-ae1e-a57e34dd22b5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OnlinerApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OnlinerApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Interfaces/IFridgeService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Interfaces/IFridgeService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Interfaces/IHobService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Interfaces/IHobService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Interfaces/IMicrowaveService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Interfaces/IMicrowaveService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Interfaces/IMotorbikeService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Interfaces/IMotorbikeService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Interfaces/INotebookService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Interfaces/INotebookService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Services/ComputerService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Services/ComputerService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Services/FridgeService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Services/FridgeService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Services/HobService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Services/HobService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Services/MicrowaveService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Services/MicrowaveService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Services/MotorbikeService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Services/MotorbikeService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Services/NotebookService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Services/NotebookService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/bin/Debug/net6.0/OnlinerApp.BusinessLogic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/bin/Debug/net6.0/OnlinerApp.BusinessLogic.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/bin/Debug/net6.0/OnlinerApp.BusinessLogic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/bin/Debug/net6.0/OnlinerApp.BusinessLogic.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/bin/Debug/net6.0/OnlinerApp.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/bin/Debug/net6.0/OnlinerApp.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/bin/Debug/net6.0/OnlinerApp.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/bin/Debug/net6.0/OnlinerApp.Common.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/obj/Debug/net6.0/OnlinerApp.BusinessLogic.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/obj/Debug/net6.0/OnlinerApp.BusinessLogic.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/obj/Debug/net6.0/OnlinerApp.BusinessLogic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/obj/Debug/net6.0/OnlinerApp.BusinessLogic.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/obj/Debug/net6.0/OnlinerApp.BusinessLogic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/obj/Debug/net6.0/OnlinerApp.BusinessLogic.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/DTO's/EditBasicDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/DTO's/EditBasicDTO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/DTO's/FridgeDTO/SortFridgeDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/DTO's/FridgeDTO/SortFridgeDTO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/DTO's/HobDTO/SortHobDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/DTO's/HobDTO/SortHobDTO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/DTO's/MicrowaveDTO/SortMicrowaveDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/DTO's/MicrowaveDTO/SortMicrowaveDTO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/DTO's/MotorbikeDTO/SortMotorbikeDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/DTO's/MotorbikeDTO/SortMotorbikeDTO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/DTO's/СomputerDTO/EditСomputerDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/DTO's/СomputerDTO/EditСomputerDTO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/bin/Debug/net6.0/OnlinerApp.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/bin/Debug/net6.0/OnlinerApp.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/bin/Debug/net6.0/OnlinerApp.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/bin/Debug/net6.0/OnlinerApp.Common.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/obj/Debug/net6.0/OnlinerApp.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/obj/Debug/net6.0/OnlinerApp.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/obj/Debug/net6.0/OnlinerApp.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/obj/Debug/net6.0/OnlinerApp.Common.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/obj/Debug/net6.0/ref/OnlinerApp.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/obj/Debug/net6.0/ref/OnlinerApp.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.Common/obj/Debug/net6.0/refint/OnlinerApp.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Common/obj/Debug/net6.0/refint/OnlinerApp.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Interfaces/ITelephoneService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Interfaces/ITelephoneService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Interfaces/ITelevisionService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Interfaces/ITelevisionService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Interfaces/IVacuumCleanerService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Interfaces/IVacuumCleanerService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Interfaces/IWasherService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Interfaces/IWasherService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Services/TelephoneService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Services/TelephoneService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Services/TelevisionService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Services/TelevisionService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Services/VacuumCleanerService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Services/VacuumCleanerService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Services/WasherService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.BusinessLogic/Services/WasherService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/MapperProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/MapperProfile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/bin/Debug/net6.0/OnlinerApp.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/bin/Debug/net6.0/OnlinerApp.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/bin/Debug/net6.0/OnlinerApp.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/bin/Debug/net6.0/OnlinerApp.Common.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/bin/Debug/net6.0/OnlinerApp.Mapper.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/bin/Debug/net6.0/OnlinerApp.Mapper.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/bin/Debug/net6.0/OnlinerApp.Mapper.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/bin/Debug/net6.0/OnlinerApp.Mapper.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/Debug/net6.0/OnlinerApp.Mapper.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/Debug/net6.0/OnlinerApp.Mapper.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/Debug/net6.0/OnlinerApp.Mapper.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/Debug/net6.0/OnlinerApp.Mapper.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/Debug/net6.0/OnlinerApp.Mapper.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp.Mapper/obj/Debug/net6.0/OnlinerApp.Mapper.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp/Controllers/ComputerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/Controllers/ComputerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.BusinessLogic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.BusinessLogic.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.BusinessLogic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.BusinessLogic.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.Common.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.Mapper.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.Mapper.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.Mapper.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.Mapper.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/bin/Debug/net6.0/OnlinerApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/OnlinerApp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/OnlinerApp.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/OnlinerApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/OnlinerApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/OnlinerApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/OnlinerApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/ref/OnlinerApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/ref/OnlinerApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/refint/OnlinerApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/obj/Debug/net6.0/refint/OnlinerApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlinerApp/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/OnlinerApp/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +104,8 @@
       <workItem from="1665052683859" duration="6239000" />
       <workItem from="1665059224363" duration="4890000" />
       <workItem from="1665138927839" duration="7794000" />
-      <workItem from="1665310979170" duration="9757000" />
+      <workItem from="1665310979170" duration="10280000" />
+      <workItem from="1665333080139" duration="2126000" />
     </task>
     <task id="LOCAL-00001" summary="add main files">
       <created>1664647624771</created>
@@ -171,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665313784635</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add fridge, motorbike, notebook and hob services">
+      <created>1665326046886</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665326046886</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +160,7 @@
     <MESSAGE value="add models and empty dtos" />
     <MESSAGE value="add basic sort service and computer service" />
     <MESSAGE value="add basic sort service" />
-    <option name="LAST_COMMIT_MESSAGE" value="add basic sort service" />
+    <MESSAGE value="add fridge, motorbike, notebook and hob services" />
+    <option name="LAST_COMMIT_MESSAGE" value="add fridge, motorbike, notebook and hob services" />
   </component>
 </project>

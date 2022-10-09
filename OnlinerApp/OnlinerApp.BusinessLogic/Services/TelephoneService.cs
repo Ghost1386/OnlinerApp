@@ -1,39 +1,120 @@
-﻿using OnlinerApp.BusinessLogic.Interfaces;
+﻿using AutoMapper;
+using OnlinerApp.BusinessLogic.Interfaces;
 using OnlinerApp.Common.DTO_s.DeleteDTO;
 using OnlinerApp.Common.DTO_s.TelephoneDTO;
+using OnlinerApp.Model;
 using OnlinerApp.Model.Models;
 
 namespace OnlinerApp.BusinessLogic.Services;
 
 public class TelephoneService : ITelephoneService
 {
-    public List<Telephone> Get()
+    private readonly ApplicationContext _context;
+    private readonly IMapper _mapper;
+    private readonly ISortService _sortService;
+
+    public TelephoneService(ApplicationContext context, IMapper mapper, ISortService sortService)
     {
-        throw new NotImplementedException();
+        _context = context;
+        _mapper = mapper;
+        _sortService = sortService;
     }
 
-    public List<Telephone> Get(SortTelephoneDTO model)
+    public IEnumerable<Telephone> Get()
     {
-        throw new NotImplementedException();
+        return _context.Telephones;
+    }
+
+    public IQueryable<Telephone> Get(SortTelephoneDTO model)
+    {
+        var basicModel = new List<BasicModel>();
+        
+        basicModel.AddRange(_context.Telephones);
+
+        var sortedModels = _sortService.Sort(basicModel.AsQueryable(), model);
+
+        var sortedTelephones = sortedModels.Cast<Telephone>();
+
+        if (sortedTelephones.ToList().Count == 0)
+        {
+            return null!;
+        }
+        
+        var telephone = SortByTelephoneModel(sortedTelephones, model);
+
+        if (telephone.ToList().Count == 0)
+        {
+            return new List<Telephone>().AsQueryable();
+        }
+
+        return telephone;
+    }
+
+    private IQueryable<Telephone> SortByTelephoneModel(IQueryable<Telephone> query, SortTelephoneDTO model)
+    {
+        if (model.Ram != 0)
+        {
+            query = query.Where(item => item.Ram == model.Ram);
+        }
+        
+        if (model.BuiltInMemory != 0)
+        {
+            query = query.Where(item => item.BuiltInMemory == model.BuiltInMemory);
+        }
+        
+        if (model.ScreenSize != 0)
+        {
+            query = query.Where(item => item.ScreenSize == model.ScreenSize);
+        }
+        
+        query = query.Where(item => item.OperatingSystem == (int) model.OperatingSystem);
+        
+        if (model.BatteryCapacity != 0)
+        {
+            query = query.Where(item => item.BatteryCapacity == model.BatteryCapacity);
+        }
+        
+        query = query.Where(item => item.TypeOf == (int) model.TypeOf);
+        
+        if (!string.IsNullOrEmpty(model.CaseColor))
+        {
+            query = query.Where(item => item.CaseColor == model.CaseColor);
+        }
+        
+        return query;
     }
 
     public Telephone Get(int id)
     {
-        throw new NotImplementedException();
+        return _context.Telephones.Where(x => x.Id == id).FirstOrDefault();
     }
 
     public void Create(CreateTelephoneDTO model)
     {
-        throw new NotImplementedException();
+        var telephone = _mapper.Map<CreateTelephoneDTO, Telephone>(model);
+
+        _context.Telephones.Add(telephone);
+        _context.SaveChanges();
     }
 
-    public void Edit(EditTelephoneDTO model)
+    public void Edit(int id, EditTelephoneDTO model)
     {
-        throw new NotImplementedException();
+        var telephone = Get(id);
+
+        if (telephone.Id == 0)
+        {
+            return;
+        }
+        
+        var editTelephone = _mapper.Map<EditTelephoneDTO, Telephone>(model);
+
+        _context.Telephones.Update(editTelephone);
+        _context.SaveChanges();
     }
 
     public void Delete(DeleteBasicDTO model)
     {
-        throw new NotImplementedException();
+        _context.Telephones.Remove(Get(model.Id));
+        _context.SaveChanges();
     }
 }
