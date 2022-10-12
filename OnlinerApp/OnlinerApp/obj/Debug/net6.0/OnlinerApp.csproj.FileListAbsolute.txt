@@ -68,3 +68,8 @@ C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp\bin\Debug\net6.0\OnlinerA
 C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp\bin\Debug\net6.0\OnlinerApp.Common.dll
 C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp\bin\Debug\net6.0\OnlinerApp.BusinessLogic.pdb
 C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp\bin\Debug\net6.0\OnlinerApp.Common.pdb
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp\bin\Debug\net6.0\OnlinerApp.Dependencies.dll
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp\bin\Debug\net6.0\OnlinerApp.Extensions.dll
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp\bin\Debug\net6.0\OnlinerApp.Dependencies.pdb
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp\bin\Debug\net6.0\OnlinerApp.Extensions.pdb

@@ -16,6 +16,8 @@
 
     <ItemGroup>
       <ProjectReference Include="..\OnlinerApp.BusinessLogic\OnlinerApp.BusinessLogic.csproj" />
+      <ProjectReference Include="..\OnlinerApp.Dependencies\OnlinerApp.Dependencies.csproj" />
+      <ProjectReference Include="..\OnlinerApp.Extensions\OnlinerApp.Extensions.csproj" />
       <ProjectReference Include="..\OnlinerApp.Mapper\OnlinerApp.Mapper.csproj" />
       <ProjectReference Include="..\OnlinerApp.Model\OnlinerApp.Model.csproj" />
     </ItemGroup>

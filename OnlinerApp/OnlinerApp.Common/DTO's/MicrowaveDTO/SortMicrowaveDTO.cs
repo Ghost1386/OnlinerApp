@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using OnlinerApp.Common.Enums.MicrowaveEnum;
+﻿using OnlinerApp.Common.Enums.MicrowaveEnum;
 
 namespace OnlinerApp.Common.DTO_s.MicrowaveDTO;
 

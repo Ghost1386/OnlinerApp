@@ -1,33 +1,64 @@
-﻿using OnlinerApp.BusinessLogic.Interfaces;
+﻿using AutoMapper;
+using OnlinerApp.BusinessLogic.Interfaces;
 using OnlinerApp.Common.DTO_s.UserDTO;
+using OnlinerApp.Model;
 using OnlinerApp.Model.Models;
 
 namespace OnlinerApp.BusinessLogic.Services;
 
 public class UserService : IUserService
 {
-    public List<User> Get()
+    private readonly ApplicationContext _context;
+    private readonly IMapper _mapper;
+
+    public UserService(ApplicationContext context, IMapper mapper)
     {
-        throw new NotImplementedException();
+        _context = context;
+        _mapper = mapper;
+    }
+
+    public IEnumerable<User> Get()
+    {
+        return _context.Users;
     }
 
     public User Get(int id)
     {
-        throw new NotImplementedException();
+        return _context.Users.Where(x => x.Id == id).FirstOrDefault();
+    }
+
+    public User Get(string email, string password)
+    {
+        return _context.Users.Where(x => x.Email == email && 
+                                   x.Password == password).FirstOrDefault();
     }
 
     public void Create(CreateUserDTO model)
     {
-        throw new NotImplementedException();
+        var user = _mapper.Map<CreateUserDTO, User>(model);
+
+        _context.Users.Add(user);
+        _context.SaveChanges();
     }
 
-    public void Edit(EditUserDTO model)
+    public void Edit(int id, EditUserDTO model)
     {
-        throw new NotImplementedException();
+        var user = Get(id);
+
+        if (user.Id == 0)
+        {
+            return;
+        }
+        
+        var editUser = _mapper.Map<EditUserDTO, User>(model);
+
+        _context.Users.Update(editUser);
+        _context.SaveChanges();
     }
 
     public void Delete(DeleteUserDTO model)
     {
-        throw new NotImplementedException();
+        _context.Users.Remove(Get(model.Email, model.Password));
+        _context.SaveChanges();
     }
 }

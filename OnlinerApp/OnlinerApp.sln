@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlinerApp.Model", "Onliner
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlinerApp.Mapper", "OnlinerApp.Mapper\OnlinerApp.Mapper.csproj", "{29AF00F8-B169-40F5-B8BA-F7B16811FCB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlinerApp.Dependencies", "OnlinerApp.Dependencies\OnlinerApp.Dependencies.csproj", "{1B742C3E-F2FE-4066-8B8B-59356C0D19C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlinerApp.Extensions", "OnlinerApp.Extensions\OnlinerApp.Extensions.csproj", "{5D81A5A3-9D2A-4D82-89CA-9F0AB250952D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{29AF00F8-B169-40F5-B8BA-F7B16811FCB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29AF00F8-B169-40F5-B8BA-F7B16811FCB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29AF00F8-B169-40F5-B8BA-F7B16811FCB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B742C3E-F2FE-4066-8B8B-59356C0D19C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B742C3E-F2FE-4066-8B8B-59356C0D19C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B742C3E-F2FE-4066-8B8B-59356C0D19C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B742C3E-F2FE-4066-8B8B-59356C0D19C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D81A5A3-9D2A-4D82-89CA-9F0AB250952D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D81A5A3-9D2A-4D82-89CA-9F0AB250952D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D81A5A3-9D2A-4D82-89CA-9F0AB250952D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D81A5A3-9D2A-4D82-89CA-9F0AB250952D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

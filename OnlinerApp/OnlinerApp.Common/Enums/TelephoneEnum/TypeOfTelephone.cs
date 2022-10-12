@@ -1,6 +1,6 @@
 ﻿namespace OnlinerApp.Common.Enums.TelephoneEnum;
 
-public enum TypeOf
+public enum TypeOfTelephone
 {
     PushButtonTelephone = 0,
     Smartphone = 1

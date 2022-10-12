@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using OnlinerApp.Common.Enums.СomputerEnum;
-using OperatingSystem = OnlinerApp.Common.Enums.СomputerEnum.OperatingSystem;
+using OperatingSystem = OnlinerApp.Common.Enums.NotebookEnum.OperatingSystem;
 
 namespace OnlinerApp.Common.DTO_s.СomputerDTO;
 

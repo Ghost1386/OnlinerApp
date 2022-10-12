@@ -15,7 +15,7 @@ namespace OnlinerApp.BusinessLogic.Services;
 
 public class AuthService : IAuthService
 {
-    private IConfiguration _configuration;
+    private readonly IConfiguration _configuration;
     private readonly ApplicationContext _context;
     private readonly IUserService _userService;
     private readonly IMapper _mapper;

@@ -28,42 +28,82 @@ public class ComputerController : ControllerBase
     [HttpPost("/get/computer/sorted")]
     public List<Сomputer> GetSorted(SortСomputerDTO model)
     {
-        return _computerService.Get(model).ToList();
+        try
+        {
+            return _computerService.Get(model).ToList();
+        }
+        catch (Exception e)
+        {
+            _logger.LogError(e.Message);
+            return new List<Сomputer>();
+        }
     }
 
     [HttpGet("/get/computer/{id}")]
     public Сomputer Get(int id)
     {
-        return _computerService.Get(id);
+        try
+        {
+            return _computerService.Get(id);
+        }
+        catch (Exception e)
+        {
+            _logger.LogError(e.Message);
+            return new Сomputer();
+        }
     }
     
     [HttpPost("/create/computer")]
     public IActionResult Create(CreateСomputerDTO model)
     {
-        _computerService.Create(model);
+        try
+        {
+            _computerService.Create(model);
         
-        _logger.LogInformation($"Create new computer");
+            _logger.LogInformation($"Create new computer");
             
-        return Ok();
+            return Ok();
+        }
+        catch (Exception e)
+        {
+            _logger.LogError(e.Message);
+            return BadRequest();
+        }
     }
     
     [HttpPut("/put/computer")]
     public IActionResult Edit(int id, EditСomputerDTO model)
     {
-        _computerService.Edit(id, model);
+        try
+        {
+            _computerService.Edit(id, model);
         
-        _logger.LogInformation($"Edit computer {id}");
+            _logger.LogInformation($"Edit computer {id}");
 
-        return Ok();
+            return Ok();
+        }
+        catch (Exception e)
+        {
+            _logger.LogError(e.Message);
+            return BadRequest();
+        }
     }
 
     [HttpDelete("/delete/computer")]
     public IActionResult Delete(DeleteBasicDTO model)
     {
-        _computerService.Delete(model);
+        try
+        {
+            _computerService.Delete(model);
         
-        _logger.LogInformation($"Delete computer {model.Id}");
+            _logger.LogInformation($"Delete computer {model.Id}");
 
-        return Ok();
+            return Ok();
+        }
+        catch (Exception e)
+        {
+            _logger.LogError(e.Message);
+            return BadRequest();
+        }
     }
 }

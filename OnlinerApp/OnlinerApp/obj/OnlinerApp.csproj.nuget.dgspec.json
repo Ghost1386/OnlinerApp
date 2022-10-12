@@ -111,6 +111,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -123,6 +129,133 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\Desktop\\OnlinerApp\\OnlinerApp\\OnlinerApp.Dependencies\\OnlinerApp.Dependencies.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\OnlinerApp\\OnlinerApp\\OnlinerApp.Dependencies\\OnlinerApp.Dependencies.csproj",
+        "projectName": "OnlinerApp.Dependencies",
+        "projectPath": "C:\\Users\\user\\Desktop\\OnlinerApp\\OnlinerApp\\OnlinerApp.Dependencies\\OnlinerApp.Dependencies.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\OnlinerApp\\OnlinerApp\\OnlinerApp.Dependencies\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\user\\Desktop\\OnlinerApp\\OnlinerApp\\OnlinerApp.BusinessLogic\\OnlinerApp.BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\OnlinerApp\\OnlinerApp\\OnlinerApp.BusinessLogic\\OnlinerApp.BusinessLogic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\Desktop\\OnlinerApp\\OnlinerApp\\OnlinerApp.Extensions\\OnlinerApp.Extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\OnlinerApp\\OnlinerApp\\OnlinerApp.Extensions\\OnlinerApp.Extensions.csproj",
+        "projectName": "OnlinerApp.Extensions",
+        "projectPath": "C:\\Users\\user\\Desktop\\OnlinerApp\\OnlinerApp\\OnlinerApp.Extensions\\OnlinerApp.Extensions.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\OnlinerApp\\OnlinerApp\\OnlinerApp.Extensions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\user\\Desktop\\OnlinerApp\\OnlinerApp\\OnlinerApp.Common\\OnlinerApp.Common.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\OnlinerApp\\OnlinerApp\\OnlinerApp.Common\\OnlinerApp.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -286,6 +419,12 @@
             "projectReferences": {
               "C:\\Users\\user\\Desktop\\OnlinerApp\\OnlinerApp\\OnlinerApp.BusinessLogic\\OnlinerApp.BusinessLogic.csproj": {
                 "projectPath": "C:\\Users\\user\\Desktop\\OnlinerApp\\OnlinerApp\\OnlinerApp.BusinessLogic\\OnlinerApp.BusinessLogic.csproj"
+              },
+              "C:\\Users\\user\\Desktop\\OnlinerApp\\OnlinerApp\\OnlinerApp.Dependencies\\OnlinerApp.Dependencies.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\OnlinerApp\\OnlinerApp\\OnlinerApp.Dependencies\\OnlinerApp.Dependencies.csproj"
+              },
+              "C:\\Users\\user\\Desktop\\OnlinerApp\\OnlinerApp\\OnlinerApp.Extensions\\OnlinerApp.Extensions.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\OnlinerApp\\OnlinerApp\\OnlinerApp.Extensions\\OnlinerApp.Extensions.csproj"
               },
               "C:\\Users\\user\\Desktop\\OnlinerApp\\OnlinerApp\\OnlinerApp.Mapper\\OnlinerApp.Mapper.csproj": {
                 "projectPath": "C:\\Users\\user\\Desktop\\OnlinerApp\\OnlinerApp\\OnlinerApp.Mapper\\OnlinerApp.Mapper.csproj"

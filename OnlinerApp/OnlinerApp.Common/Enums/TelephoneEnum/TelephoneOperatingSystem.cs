@@ -1,6 +1,6 @@
 ﻿namespace OnlinerApp.Common.Enums.TelephoneEnum;
 
-public enum OperatingSystem
+public enum TelephoneOperatingSystem
 {
     Android = 0,
     iOS= 1,

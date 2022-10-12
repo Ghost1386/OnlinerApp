@@ -1,11 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
-using OnlinerApp.Common.Enums.FridgeEnum;
+﻿using OnlinerApp.Common.Enums.FridgeEnum;
 
 namespace OnlinerApp.Common.DTO_s.FridgeDTO;
 
 public class SortFridgeDTO : SortBasicDTO
 {
-    public Execution Execution { get; set; }
+    public ExecutionFridge Execution { get; set; }
     
     public double Height { get; set; }
     

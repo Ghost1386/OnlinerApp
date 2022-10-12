@@ -6,7 +6,7 @@ namespace OnlinerApp.Common.DTO_s.FridgeDTO;
 public class CreateFridgeDTO : CreateBasicDTO
 {
     [Required]
-    public Execution Execution { get; set; }
+    public ExecutionFridge Execution { get; set; }
     
     [Required]
     public double Height { get; set; }

@@ -1,6 +1,6 @@
 ﻿namespace OnlinerApp.Common.Enums.FridgeEnum;
 
-public enum Execution
+public enum ExecutionFridge
 {
     StandingSeparately = 0,
     Embedded = 1,

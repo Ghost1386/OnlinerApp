@@ -5,21 +5,15 @@ namespace OnlinerApp.Common.DTO_s.FridgeDTO;
 
 public class EditFridgeDTO : EditBasicDTO
 {
-    [Required]
-    public Execution Execution { get; set; }
+    public ExecutionFridge Execution { get; set; }
     
-    [Required]
     public double Height { get; set; }
     
-    [Required]
     public double Width { get; set; }
     
-    [Required]
     public string EnergyClass { get; set; }
     
-    [Required]
     public string Modes { get; set; }
     
-    [Required]
     public string Peculiarities { get; set; }
 }

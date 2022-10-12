@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using OnlinerApp.Common.Enums.TelephoneEnum;
-using OperatingSystem = OnlinerApp.Common.Enums.TelephoneEnum.OperatingSystem;
+using OperatingSystem = OnlinerApp.Common.Enums.TelephoneEnum.TelephoneOperatingSystem;
 
 namespace OnlinerApp.Common.DTO_s.TelephoneDTO;
 
@@ -22,7 +22,7 @@ public class CreateTelephoneDTO : CreateBasicDTO
     public int BatteryCapacity { get; set; }
     
     [Required]
-    public TypeOf TypeOf { get; set; }
+    public TypeOfTelephone TypeOf { get; set; }
     
     [Required]
     public string CaseColor { get; set; }

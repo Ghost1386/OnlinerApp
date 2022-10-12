@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Extensions\bin\Debug\net6.0\OnlinerApp.Extensions.deps.json
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Extensions\bin\Debug\net6.0\OnlinerApp.Extensions.dll
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Extensions\bin\Debug\net6.0\OnlinerApp.Extensions.pdb
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Extensions\bin\Debug\net6.0\OnlinerApp.Common.dll
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Extensions\bin\Debug\net6.0\OnlinerApp.Common.pdb
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Extensions\obj\Debug\net6.0\OnlinerApp.Extensions.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Extensions\obj\Debug\net6.0\OnlinerApp.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Extensions\obj\Debug\net6.0\OnlinerApp.Extensions.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Extensions\obj\Debug\net6.0\OnlinerApp.Extensions.AssemblyInfo.cs
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Extensions\obj\Debug\net6.0\OnlinerApp.Extensions.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Extensions\obj\Debug\net6.0\OnlinerApp.Extensions.csproj.CopyComplete
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Extensions\obj\Debug\net6.0\OnlinerApp.Extensions.dll
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Extensions\obj\Debug\net6.0\refint\OnlinerApp.Extensions.dll
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Extensions\obj\Debug\net6.0\OnlinerApp.Extensions.pdb
+C:\Users\user\Desktop\OnlinerApp\OnlinerApp\OnlinerApp.Extensions\obj\Debug\net6.0\ref\OnlinerApp.Extensions.dll
