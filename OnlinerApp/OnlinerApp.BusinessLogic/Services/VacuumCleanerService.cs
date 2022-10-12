@@ -42,11 +42,6 @@ public class VacuumCleanerService : IVacuumCleanerService
         
         var vacuumCleaner = SortByVacuumCleanerModel(sortedVacuumCleaners, model);
 
-        if (vacuumCleaner.ToList().Count == 0)
-        {
-            return new List<VacuumCleaner>().AsQueryable();
-        }
-
         return vacuumCleaner;
     }
 

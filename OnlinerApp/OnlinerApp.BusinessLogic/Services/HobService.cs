@@ -42,11 +42,6 @@ public class HobService : IHobService
         
         var hob = SortByHobModel(sortedHobs, model);
 
-        if (hob.ToList().Count == 0)
-        {
-            return new List<Hob>().AsQueryable();
-        }
-
         return hob;
     }
 

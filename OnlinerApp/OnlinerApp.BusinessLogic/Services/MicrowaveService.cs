@@ -42,11 +42,6 @@ public class MicrowaveService : IMicrowaveService
         
         var microwave = SortByMicrowaveModel(sortedMicrowaves, model);
 
-        if (microwave.ToList().Count == 0)
-        {
-            return new List<Microwave>().AsQueryable();
-        }
-
         return microwave;
     }
 

@@ -42,11 +42,6 @@ public class TelevisionService : ITelevisionService
         
         var television = SortByTelevisionModel(sortedTelevisions, model);
 
-        if (television.ToList().Count == 0)
-        {
-            return new List<Television>().AsQueryable();
-        }
-
         return television;
     }
 

@@ -42,11 +42,6 @@ public class FridgeService : IFridgeService
         
         var fridge = SortByFridgeModel(sortedFridges, model);
 
-        if (fridge.ToList().Count == 0)
-        {
-            return new List<Fridge>().AsQueryable();
-        }
-
         return fridge;
     }
 

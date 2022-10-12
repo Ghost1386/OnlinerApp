@@ -42,11 +42,6 @@ public class ComputerService : IComputerService
         
         var computer = SortByComputerModel(sortedComputers, model);
 
-        if (computer.ToList().Count == 0)
-        {
-            return new List<Сomputer>().AsQueryable();
-        }
-
         return computer;
     }
 

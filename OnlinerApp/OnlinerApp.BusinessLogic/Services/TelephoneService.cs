@@ -42,11 +42,6 @@ public class TelephoneService : ITelephoneService
         
         var telephone = SortByTelephoneModel(sortedTelephones, model);
 
-        if (telephone.ToList().Count == 0)
-        {
-            return new List<Telephone>().AsQueryable();
-        }
-
         return telephone;
     }
 

@@ -42,11 +42,6 @@ public class WasherService : IWasherService
         
         var computer = SortByWasherModel(sortedWashers, model);
 
-        if (computer.ToList().Count == 0)
-        {
-            return new List<Washer>().AsQueryable();
-        }
-
         return computer;
     }
 

@@ -42,11 +42,6 @@ public class MotorbikeService : IMotorbikeService
         
         var computer = SortByMotorbikeModel(sortedMotorbikes, model);
 
-        if (computer.ToList().Count == 0)
-        {
-            return new List<Motorbike>().AsQueryable();
-        }
-
         return computer;
     }
 

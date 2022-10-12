@@ -42,11 +42,6 @@ public class NotebookService : INotebookService
         
         var notebook = SortByNotebookModel(sortedNotebooks, model);
 
-        if (notebook.ToList().Count == 0)
-        {
-            return new List<Notebook>().AsQueryable();
-        }
-
         return notebook;
     }
 
